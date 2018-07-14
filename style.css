@@ -48,12 +48,161 @@ table {
 }
 
 /* Original code starts here */
-aside {
-	background: orange
-	display: inline-block
-	height: 900px
-	width: 900px
-	margin: 900px;
-	
 
+.search-bar {
+  margin-left: 320px;
+  margin-top: 10px;
+  
+	
+}
+
+form.search-bar input[type=text] {
+  float: left;
+  vertical-align: top;
+  height: 27px;
+  width: 580px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding-left: 7px;
+  border: 1px, #f8f8f8;
+}
+
+form.search-bar button {
+  float: left;
+  vertical-align: top;
+  height: 36px;
+  width: 65px;
+  background: url(images/button.png) no-repeat;
+  background-size: 65px 33px;
+  border: none;
+}
+
+.vid {
+	display: inline-block;
+	margin-left: 35px;
+  margin-top: 45px;
+}
+
+.sidebar {
+  float: right;
+  margin-right: 205px;
+  margin-top: 80px;
+}
+
+.reccomended {
+  list-style-type: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 550;  
+  margin-right: -25px;
+} 
+
+.bulma {
+  background: url(images/bulma.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 115px;
+}
+
+.goku {
+  background: url(images/goku.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.kuririn {
+  background: url(images/kuririn.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.lunch {
+  background: url(images/lunch.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.mai {
+  background: url(images/mai.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.roshi {
+  background: url(images/roshi.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.android {
+  background: url(images/seventeen.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.yamcha {
+  background: url(images/yamcha.png) no-repeat;
+  background-size: 170px 100px;
+  padding-left: 180px;
+  padding-bottom: 100px;
+}
+
+.up-next {
+  margin-top: -28px;
+  margin-bottom: 15px;
+  font-size: 22;
+}
+
+.title h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 34px;
+}
+
+.title p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: grey;
+  font-weight: 200;
+  margin-left: 38px;
+  margin-top: 10px;
+}
+
+.description {
+  font-family: Roboto, Arial, sans-serif;
+
+}
+
+.description h4 {
+  font-size: 14px;
+  font-weight: 900;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.description p {
+  margin-left: 90px;
+}
+
+.date {
+  font-size: 16px;
+  color: grey;
+  font-weight: 200;
+}
+
+.description-body {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.show-more {
+  color: grey;
+  margin-top: 20px;
+  font-size: 13px;
 }
